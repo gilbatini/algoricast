@@ -1,6 +1,6 @@
 # 0002 — Auth levels L0–L4
 
-- Status: specified
+- Status: live
 - Date: 2026-07-21
 - Owner: gilbatini
 
