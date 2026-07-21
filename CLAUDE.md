@@ -35,3 +35,8 @@ defines every word; this repo implements it.
 10. **The floor skin is locked**: Michroma display, Space Mono body,
     cream `#EFEDE6` / ink `#171614` / orange `#E44D26`. No new hues
     without a dated decision.
+11. **Features enter only through `features/` specs.** No agent builds an
+    unspecified feature. Build ritual: read CLAUDE.md → read the spec →
+    canon check → implement → gates green → flip spec status → one commit
+    `feat(NNNN): <title>`. A spec that conflicts with canon is surfaced to
+    the owner, never resolved silently.
