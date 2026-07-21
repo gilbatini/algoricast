@@ -1,0 +1,39 @@
+:root {
+  --cream: #efede6;
+  --ink: #171614;
+  --ink2: #4c4a45;
+  --orange: #e44d26;
+  --dark: #161513;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: "Space Mono", ui-monospace, monospace;
+  font-size: 14px;
+  line-height: 1.7;
+  padding: 48px 26px;
+}
+h1 {
+  font-family: Michroma, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: clamp(28px, 6vw, 54px);
+  line-height: 1.1;
+}
+.chain {
+  margin-top: 40px;
+  padding: 22px;
+  background: var(--dark);
+  color: var(--cream);
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.u {
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink2);
+}
+ol { margin-top: 28px; padding-left: 20px; }
+li { padding: 4px 0; }
