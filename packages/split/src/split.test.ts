@@ -4,9 +4,9 @@
  * If this drifts a cent, the build fails and nothing ships.
  */
 import { describe, expect, it } from "vitest";
-import { computeSplit } from "./index.js";
+import { computeSplit, type SplitInput } from "./index.js";
 
-const b002 = {
+const b002: SplitInput = {
   revenueCents: 100_000_000,
   P: 0.6,
   slices: [
